@@ -16,7 +16,7 @@ This BSP supports the following boards:
 
 2. Change History
 =================
-  - 2024/11 (LINUXPG-2416) Add AMD Snowy Owl support (only 64-bit) in LTS24.
+  - 2025/09 (LINUXPG-2416) Add AMD Snowy Owl support (only 64-bit) in LTS25.
 
 3. BSP Notes
 ===============
@@ -99,7 +99,8 @@ The following features are not supported and not validated.
 
 2) The AMD FirePro W2100 GPU card can be supported by radeon driver or by amdgpu driver.
 The default driver is radeon. To override it, use "radeon.si_support=0 amdgpu.si_support=1"
-in kernel boot cmdline.
+in kernel boot cmdline. Usually, the admgpu driver provides better performance and is the
+recommended driver. If you encounter any issues, you can switch to the legacy radeon driver.
 
 3.1.5 Known Issues
 ~~~~~~~~~~~~~~~~~~
