@@ -16,7 +16,7 @@ This BSP supports the following boards:
 
 2. Change History
 =================
-  - 2025/09 (LINUXPG-2416) Add AMD Snowy Owl support (only 64-bit) in LTS25.
+  - 2025/09 (LINUXPG-2589) Add AMD Snowy Owl support (only 64-bit) in LTS25.
 
 3. BSP Notes
 ===============
